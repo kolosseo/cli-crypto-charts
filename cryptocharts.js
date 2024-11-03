@@ -84,7 +84,7 @@ var updateCandles = (pair, granularity = 300) => {
   }
 
   var options = {
-    url: 'http://api.pro.coinbase.com/products/' + pair + '/candles?granularity=' + granularity,
+    url: 'https://api.exchange.coinbase.com/products/' + pair + '/candles?granularity=' + granularity,
     headers: {
       'User-Agent': 'cli-graph-lib'
     },
